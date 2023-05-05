@@ -11,10 +11,15 @@
 fsutil file setCaseSensitiveInfo "D:\projects" enable
 ```
 
-2. git 关闭NTFS保护功能
+2. git配置，适配windows端
 
 ```
 git config --global core.protectNTFS false
+git config --global core.autocrlf true
+git config --global core.filemode false
+git config --global core.longpaths true
+git config --global core.quotepath false
+git config --global core.ignorecase false
 ```
 
 
