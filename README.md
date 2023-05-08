@@ -22,9 +22,13 @@ git config --global core.quotepath false
 git config --global core.ignorecase false
 ```
 
+注意：如果是从linux端拷贝的完整git仓库，在win解压后会出现始终无法区分大小写的情况，这时候只需要重新checkout
 
+```
+git clone FILETOGITDIR LOCALDIR
+```
 
-
+新建一个目录，从旧仓库中检出，将FILETOGITDIR作为服务端，FILETOGITDIR是目录路径
 
 
 
