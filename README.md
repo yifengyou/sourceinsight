@@ -11,16 +11,9 @@
 
 ### sshfs挂载
 
-![](images/66724fba.png)
- 
-![](images/3abe8ebc.png)
+![](images/a814934a.png)
 
-![](images/16596b80.png)
-
-使能挂载点
-
-![](images/768e2892.png)
-
+使能挂载点，在`我的电脑`可以访问目录
 
 ## si使用
 
