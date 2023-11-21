@@ -1,34 +1,43 @@
 # source insight使用笔记
 
+## 环境搭建
 
-## windows端使用
+### 工具安装
+安装必备工具软件，傻瓜式一键下一步
 
-1. 开启大小写敏感功能
+1. sshfs-win: <https://github.com/billziss-gh/sshfs-win/releases>
+2. SSHFS-Win Manager: <https://github.com/evsar3/sshfs-win-manager/releases>
+3. source insight 4.0
 
-选择一个目录，开启大小写敏感
+### sshfs挂载
 
+![](images/66724fba.png)
+ 
+![](images/3abe8ebc.png)
+
+![](images/16596b80.png)
+
+使能挂载点
+
+![](images/768e2892.png)
+
+
+## si使用
+
+### 显示空字符
+
+```text
+View -> Visible Tabs and Spaces
 ```
-fsutil file setCaseSensitiveInfo "D:\projects" enable
+
+![](images/76e31a9f.png)
+
+
+### 切换主题
+
+```text
+Options -> Visual Theme -> Light Blue
 ```
 
-2. git配置，适配windows端
-
-```
-git config --global core.protectNTFS false
-git config --global core.autocrlf true
-git config --global core.filemode false
-git config --global core.longpaths true
-git config --global core.quotepath false
-git config --global core.ignorecase false
-```
-
-注意：如果是从linux端拷贝的完整git仓库，在win解压后会出现始终无法区分大小写的情况，这时候只需要重新checkout
-
-```
-git clone FILETOGITDIR LOCALDIR
-```
-
-新建一个目录，从旧仓库中检出，将FILETOGITDIR作为服务端，FILETOGITDIR是目录路径
-
-
+![](images/5ad92cad.png)
 
