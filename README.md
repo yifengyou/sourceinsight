@@ -92,8 +92,15 @@ Option -> File Type Options -> Show right margin
 ![](images/93649b06.png)
 
 
+### 2.8 设定TAB宽度
 
+```text
+Option -> File Type Options -> Tab width
+```
 
+![](images/efaa8caa.png)
+
+注意：内核规范要求制表符（Tab 键）是 8 个字符
 
 
 
