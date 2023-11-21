@@ -63,6 +63,8 @@ Option -> Preference -> Files，修改编码
 Option -> File Type Options -> Screen Font
 ```
 
+推荐 **DejaVu Sans Mono 9**
+
 ![](images/e4011130.png)
 
 
@@ -81,7 +83,13 @@ Tools -> Reformat Source Code Options 修改为K&R 类型格式化
 ./scripts/checkpatch.pl -f security/yama/yama.c
 ```
 
+### 2.7 显示右边界线
 
+```text
+Option -> File Type Options -> Show right margin
+```
+
+![](images/93649b06.png)
 
 
 
